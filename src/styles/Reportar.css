@@ -1,0 +1,31 @@
+.reportar-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: var(--shadow-soft);
+}
+
+.reportar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reportar-form input, .reportar-form select, .reportar-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.btn-enviar {
+  background-color: var(--cta-orange);
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
