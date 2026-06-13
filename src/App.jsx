@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
-import Reportar from './pages/Reportar'; // Asegúrate de que el nombre coincida
+import Reportar from './pages/Reportar'; 
 import './styles/variable.css';
 
 function App() {
